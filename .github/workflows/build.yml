@@ -5,3 +5,6 @@ jobs:
      steps:
        - run : node --version
        - run : npm  --version
+       - uses : actions/checkoutv@3
+       -run : node index.js
+       
